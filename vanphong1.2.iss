@@ -6,9 +6,7 @@
 #define MyAppExeName "HuongDan.doc"
 
 [Setup]
-; NOTE: The value of AppId uniquely identifies this application.
-; Do not use the same AppId value in installers for other applications.
-; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
+
 AppId={{5A7922F1-0CB8-426D-B3EC-991C8C513C1C}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
@@ -32,8 +30,11 @@ Name: "codau"; MessagesFile: "compiler:Languages\codau.isl"
 [Files]
 Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Mau\MauVB\HuongDan.doc"; DestDir: "{app}\"; Flags: ignoreversion
 Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\cuong20140123PM.dotm"; DestDir: "C:\Users\{sysuserinfoname}\AppData\Roaming\Microsoft\Word\STARTUP"; Flags: ignoreversion
+Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\cuong20140123PM.dotm"; DestDir: "{pf}\Microsoft Office\Office14\Word\STARTUP"; Flags: ignoreversion
+Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\cuong20140123PM.dotm"; DestDir: "{pf}\Microsoft Office\Office15\Word\STARTUP"; Flags: ignoreversion
+;Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\cuong20140123PM.dotm"; DestDir: "{pf}\Microsoft Office\root\Office16\Word\STARTUP"; Flags: ignoreversion
 Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Mau\*"; DestDir: "C:\";  Flags: ignoreversion recursesubdirs createallsubdirs
-; NOTE: Don't use "Flags: ignoreversion" on any shared system files
+
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
