@@ -20,7 +20,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppDirName}
 DefaultGroupName={#MyAppName}
 LicenseFile=D:\G-DRIVER\VPUBND\Thi CNTT\Mau\MauVB\Giayphep.txt
-OutputDir=D:\G-DRIVER\Tai lieu\VPUBND\Thi CNTT\Tien ich\bo cai
+OutputDir=D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\bo cai
 OutputBaseFilename=Tien_ich_Van_phong{#MyAppVersion}
 SetupIconFile=D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\favicon.ico
 Compression=lzma/max
@@ -32,7 +32,7 @@ Name: "codau"; MessagesFile: "compiler:Languages\codau.isl"
 [Files]
 Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Mau\MauVB\HuongDan.doc"; DestDir: "{app}\"; Flags: ignoreversion
 Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\cuong20140123PM.dotm"; DestDir: "C:\Users\{sysuserinfoname}\AppData\Roaming\Microsoft\Word\STARTUP"; Flags: ignoreversion
-Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Mau\MauVB\*"; DestDir: "C:\";  Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Mau\*"; DestDir: "C:\";  Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

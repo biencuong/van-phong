@@ -1,0 +1,49 @@
+﻿<!-- Created with IDBE RibbonCreator 2016 (Version: 1.1002) -->
+<!--                http://www.ribboncreator2016.com               -->
+<!--                 http://www.ribboncreator2016.de               -->
+
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="OnRibbonLoad" loadImage="LoadImages">
+  <commands>
+      <command idMso="Help" enabled="true"/>
+  </commands>
+
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="tab0" label="VĂN PH&#210;NG" getVisible ="GetVisible">
+        <group id="grp_tienich" autoScale="true" centerVertically="true" label="Tiện &#237;ch" getVisible ="GetVisible" tag = "RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" >
+          <button id="btn_vb_online" size="normal" label="Soạn thảo trực tuy&#234;́n" screentip="Soạn thảo Online" supertip="Tạo, chỉnh sủa và chia sẻ. Làm vi&#234;̣c cùng lúc với những người khác" imageMso="FileCreateDocumentWorkspace" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_bc_online" size="normal" label="Báo cáo trực tuy&#234;́n" screentip="Làm báo cáo qua mạng" supertip="Làm báo cáo đ&#244;̣ng với nhi&#234;̀u người cùng lúc" imageMso="ExportExcel" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_kyso" size="normal" label="Ký s&#244;́ tài li&#234;̣u" screentip="Chữ ký s&#244;́" supertip="Ký s&#244;́ vào tài li&#234;̣u word" imageMso="AdpPrimaryKey" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <dialogBoxLauncher> 
+            <button id="grp_tienich_dlB" onAction="GetImages" />
+          </dialogBoxLauncher> 
+        </group>
+        <group id="grp_soanthoa" autoScale="true" centerVertically="true" label="Soạn thảo" getVisible ="GetVisible" tag = "RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" >
+          <button id="btn_congvan" size="large" label="C&#244;ng văn" screentip="Soạn thảo" supertip="Mẫu c&#244;ng văn" imageMso="FileSaveAsWordOpenDocumentText" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_quyetdinh" size="large" label="Quyết định" screentip="Soạn thảo" supertip="Mẫu quyết định" imageMso="FileCompatibilityCheckerWord" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_kehoach" size="large" label="Kế hoạch" screentip="Soạn thảo" supertip="Mẫu kế hoạch" imageMso="BorderDrawLine" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_totrinh" size="large" label="Tờ tr&#236;nh" screentip="Soạn thảo" supertip="Mẫu tờ tr&#236;nh" imageMso="AdvancedFileProperties" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_baocao" size="large" label="B&#225;o c&#225;o" screentip="Soạn thảo" supertip="Mẫu báo cáo" imageMso="ChartLayoutGallery" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+          <button id="btn_giaymoi" size="large" label="Giấy mời" screentip="Soạn thảo" supertip="Mẫu giấy mời" imageMso="AdvertisementGallery" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+        </group>
+        <group id="grp_thongtin" autoScale="true" centerVertically="true" label="Th&#244;ng tin" getVisible ="GetVisible" tag = "RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" >
+          <button id="btn_trogiup" size="large" label="Trợ giúp" screentip="Th&#244;ng tin" supertip="VPUBND tỉnh Hà Giang - Sản ph&#226;̉m dự thi H&#244;̣i thi tin học CDVC tỉnh Hà Giang" imageMso="Info" tag="RibbonName:=;inMenu:=;CustomTagValue1:=;CustomTagValue2:=;CustomTagValue3:=;CustomPicture:=;CustomPicturePath:=" onAction="OnActionButton" getVisible="GetVisible" getEnabled="GetEnabled" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+
+  <backstage> 
+     <button idMso="FileClose" visible="true"/>
+     <button idMso="FileSave" visible="true"/>
+     <tab idMso="TabInfo" visible="false"/>
+     <tab idMso="TabOfficeStart" visible="true"/>
+     <tab idMso="TabRecent" visible="true"/>
+     <tab idMso="TabSave" visible="true"/>
+     <tab idMso="TabPrint" visible="true"/>
+     <tab idMso="TabShare" visible="true"/>
+     <tab idMso="TabPublish" visible="true"/>
+     <tab idMso="TabHelp" visible="false"/>
+     <button idMso="ApplicationOptionsDialog" visible="false"/>
+  </backstage>
+</customUI>
