@@ -11,6 +11,7 @@ Tiện ích Văn phòng là add-in trên Microsoft Word, với giao diện
 xem tại đây: https://www.youtube.com/watch?v=vOWhq99H5QA&list=PLPpZ4pcSei53wCpPI7-020F9DDR4daPDV
 + Các chức năng nâng cao khác đang được thiết kế hoàn thiện trong thời gian sớm nhất.
 Trân trọng!
-
+Bùi Biên Cương
+FB/ĐT: 0983.606.845
 
 
