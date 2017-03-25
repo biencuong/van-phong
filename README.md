@@ -1,5 +1,6 @@
 GIỚI THIỆU TIỆN ÍCH VĂN PHÒNG
 1.	Giới thiệu chung
+
 Tiện ích Văn phòng là add-in trên Microsoft Word, với giao diện và các tính năng cơ bản sau:
  
 2.	Chức năng
@@ -12,7 +13,8 @@ Tiện ích Văn phòng là add-in trên Microsoft Word, với giao diện
 	
 3.	Hướng dẫn sử dụng
 xem tại đây: https://www.youtube.com/watch?v=vOWhq99H5QA&list=PLPpZ4pcSei53wCpPI7-020F9DDR4daPDV
-+ Các chức năng nâng cao khác đang được thiết kế hoàn thiện trong thời gian sớm nhất.
+
+*Ghi chú: Các chức năng nâng cao khác đang được thiết kế hoàn thiện trong thời gian sớm nhất.
 
 Trân trọng!
 
