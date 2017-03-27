@@ -1,6 +1,6 @@
 ﻿#define MyAppName "Tiện ích văn phòng"
 #define MyAppDirName  "Tien ich Van phong"
-#define MyAppVersion ".2016.v1.2"
+#define MyAppVersion ".2010.v1.2"
 #define MyAppPublisher "Văn phòng UBND tỉnh Hà Giang"
 #define MyAppURL "https://github.com/biencuong/van-phong"
 #define MyAppExeName "HuongDan.doc"
@@ -29,10 +29,10 @@ Name: "codau"; MessagesFile: "compiler:Languages\codau.isl"
 
 [Files]
 Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Mau\MauVB\HuongDan.doc"; DestDir: "{app}\"; Flags: ignoreversion
-;Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\vpub2016.dotm"; DestDir: "C:\Users\{sysuserinfoname}\AppData\Roaming\Microsoft\Word\STARTUP"; Flags: ignoreversion
-Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\vpub2016.dotm"; DestDir: "{pf}\Microsoft Office\Office14\STARTUP"; Flags: ignoreversion
-Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\vpub2016.dotm"; DestDir: "{pf}\Microsoft Office 15\root\Office15\STARTUP"; Flags: ignoreversion
-Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\vpub2016.dotm"; DestDir: "{pf}\Microsoft Office\root\Office16\STARTUP"; Flags: ignoreversion
+;Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\vpub2010.dotm"; DestDir: "C:\Users\{sysuserinfoname}\AppData\Roaming\Microsoft\Word\STARTUP"; Flags: ignoreversion
+Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\vpub2010.dotm"; DestDir: "{pf}\Microsoft Office\Office14\STARTUP"; Flags: ignoreversion
+;Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\vpub2010.dotm"; DestDir: "{pf}\Microsoft Office 15\root\Office15\STARTUP"; Flags: ignoreversion
+;Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Tien ich\vpub2010.dotm"; DestDir: "{pf}\Microsoft Office\root\Office16\STARTUP"; Flags: ignoreversion
 Source: "D:\G-DRIVER\VPUBND\Thi CNTT\Mau\*"; DestDir: "C:\";  Flags: ignoreversion recursesubdirs createallsubdirs
 
 
